@@ -1,0 +1,57 @@
+
+// RoyalPrince Fibo - Trend Detection Algorithm
+
+// Developer: Forex Robot Easy Team
+// Website: forexroboteasy.com
+
+#property copyright 'Forex Robot Easy Team'
+#property link    'forexroboteasy.com'
+#property version '1.0'
+
+// Function to detect and analyze market trends
+void TrendDetection()
+{
+    // Add your trend detection algorithm here
+    // ...
+
+    // Update the Trend Percentage in the alert system
+    double trendPercentage = CalculateTrendPercentage();
+    UpdateAlertSystem(trendPercentage);
+}
+
+// Function to calculate the trend percentage
+double CalculateTrendPercentage()
+{
+    // Add your code to calculate the trend percentage here
+    // ...
+
+    // Return the calculated trend percentage
+    return trendPercentage;
+}
+
+// Function to update the alert system with the trend percentage
+void UpdateAlertSystem(double trendPercentage)
+{
+    // Add your code to update the alert system here
+    // ...
+
+    // Print the updated trend percentage to the console
+    Print('Trend Percentage: ', trendPercentage);
+}
+
+// Function to support the RoyalPrince Fibonacci tool
+void TradingFunctions()
+{
+    // Add your trading functions here
+    // ...
+}
+
+// Main function
+void OnStart()
+{
+    // Call the Trend Detection function
+    TrendDetection();
+
+    // Call the trading functions
+    TradingFunctions();
+}
